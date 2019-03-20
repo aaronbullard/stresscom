@@ -1,0 +1,115 @@
+/* CSS Document *
+/
+/* Test styles */
+TD.TestNumber{border-bottom: 1px solid #336699;
+		border-right: 1px solid #CC3399;
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 10px;
+		text-align: right;
+		vertical-align: top;
+		color: #000000;}
+TD.TestRtMargin{border-bottom: 1px solid #336699;
+		border-left: 1px solid #FFCCFF;
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 10px;
+		text-align: right;
+		vertical-align: middle;
+		color: #000000;}
+TD.TestStatement{border-bottom: 1px solid #336699;
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 11px;
+		vertical-align: top;
+		color: #000000;}
+TD.TestHead{border-bottom: 1px solid #336699;
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 9px;
+		text-align: center;
+		color: #000000;}
+TD.TestTitle{border-bottom: 1px solid #336699;
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+		color: #000000;}
+TD.TestName{border-bottom: 1px solid #336699;
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 11px;
+		text-align: right;
+		color: #000000;}
+.TestRadio{
+	Cursor: hand;
+	border: none White;
+	background: transparent;
+}
+
+/* menu table borders */
+.top {border-top:1px solid #3333CC}
+.bottom {border-bottom:1px solid #3333CC}
+.left {border-left:1px solid #3333CC}
+.right {border-right:1px solid #3333CC}
+.MenuHead {font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 11px;
+		font-weight: bold;
+		color: #333366;}
+.MenuDataItem {font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 11px;
+		font-weight: normal;
+		color: #3333FF;}
+.MenuDataItemSelected {font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 11px;
+		font-weight: bold;
+		color: #000000;}
+
+/* body styles */
+body {background-color: #CCCCFF;}
+.bodycopy {font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 11px;
+		vertical-align: top;
+		color: #000000;}
+.footer {font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 10px;
+		vertical-align: top;
+		color: #000000;}
+li {text-align: justify;}
+.status {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 11px;
+	color: red;
+	text-decoration: blink;
+}
+hr {height: 1px;
+	color: #FFCC66;}
+		
+/* forms */
+Button {FONT-FAMILY:Arial,Helvetica,sans-serif;
+	FONT-SIZE:10px;
+	FONT-WEIGHT:normal;
+	BACKGROUND-COLOR:#FFFFCC;
+	BORDER-BOTTOM:darkgray 1px solid;
+	BORDER-LEFT:darkgray 1px solid;
+	BORDER-RIGHT:darkgray 1px solid;
+	BORDER-TOP:darkgray 1px solid;}
+INPUT {FONT-FAMILY:Arial,Helvetica,sans-serif;
+	FONT-SIZE:10px;
+	FONT-WEIGHT:normal;
+	BACKGROUND-COLOR:#FFFFCC;
+	BORDER-BOTTOM:darkgray 1px solid;
+	BORDER-LEFT:darkgray 1px solid;
+	BORDER-RIGHT:darkgray 1px solid;
+	BORDER-TOP:darkgray 1px solid;}
+Select {FONT-FAMILY:Arial,Helvetica,sans-serif;
+	FONT-SIZE:10px;
+	FONT-WEIGHT:normal;
+	BACKGROUND-COLOR:#FFFFCC;
+	BORDER-BOTTOM:darkgray 1px solid;
+	BORDER-LEFT:darkgray 1px solid;
+	BORDER-RIGHT:darkgray 1px solid;
+	BORDER-TOP:darkgray 1px solid;}
+Textarea {FONT-FAMILY:Arial,Helvetica,sans-serif;
+	FONT-SIZE:10px;
+	FONT-WEIGHT:normal;
+	BACKGROUND-COLOR:#FFFFCC;
+	BORDER-BOTTOM:darkgray 1px solid;
+	BORDER-LEFT:darkgray 1px solid;
+	BORDER-RIGHT:darkgray 1px solid;
+	BORDER-TOP:darkgray 1px solid;}

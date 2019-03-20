@@ -1,0 +1,26 @@
+<script Language="VBScript" RUNAT=Server>
+
+Sub Application_OnStart()
+     Application("NumSession") = 0
+     Application("NumVisited") = 0
+End Sub
+
+Sub Session_OnStart()
+	Session("Start") = Now
+	Session.Timeout = 90
+	Application.Lock
+	Application("NumSession") = Application("NumSession") + 1
+	Application("NumVisited") = Application("NumVisited") + 1
+	Application.UnLock
+End Sub 
+
+Sub Session_OnEnd()
+	Application.Lock
+	Application("NumSession") = Application("NumSession") - 1
+	Application.UnLock
+End Sub
+
+Sub Application_OnEnd()
+End Sub
+
+</script>

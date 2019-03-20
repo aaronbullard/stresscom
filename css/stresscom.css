@@ -1,0 +1,156 @@
+/* CSS Document *
+/
+/* Test styles */
+TD.TestNumber{border-bottom: 1px dotted #59452A;
+		border-right: 1px dotted #7ECADA;
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 12px;
+		text-align: right;
+		vertical-align: top;
+		color: #000000;}
+TD.TestRtMargin{border-bottom: 1px dotted #59452A;
+		border-left: 1px dotted #B2C979;
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 12px;
+		text-align: right;
+		vertical-align: middle;
+		color: #000000;}
+@media screen{
+TD.TestStatement{border-bottom: 1px dotted #59452A;
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 12px;
+		vertical-align: top;
+		color: #000000;}
+}
+@media print{
+TD.TestStatement{display: none}
+}
+TD.TestHead{border-bottom: 1px dotted #59452A;
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 9px;
+		text-align: center;
+		color: #000000;}
+TD.TestTitle{border-bottom: 1px dotted #59452A;
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+		color: #000000;}
+TD.TestName{border-bottom: 1px dotted #59452A;
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 12px;
+		text-align: right;
+		color: #000000;}
+.TestRadio{Cursor: hand;
+		border: none White;
+		background: transparent;}
+input.TestCheck{Cursor: hand;
+		background: transparent;}
+TD.TestRight{border-bottom: 1px dotted #59452A;
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 9px;
+		text-align: right;
+		color: #000000;}
+TD.TestStatus {border-bottom: 1px dotted #59452A;
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 12px;
+		text-align: center;
+		color: red;}
+TD.ContractHead{border-bottom: 1px dotted #59452A;
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 16px;
+		text-align: center;
+		color: #000000;}
+TD.TestStatementDirections{border-bottom: 1px dotted #59452A;
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 12px;
+		vertical-align: top;
+		color: #000000;}
+
+/* menu table borders */
+.MenuHead {font-family: arial, helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+		color: #FFFFFF;
+		background: #003366}
+.MenuDataItem {font-family: arial, helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: normal;
+		color: Orange;
+		background: #003366}
+a.Menu {font-family: arial, helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: normal;
+		color: #FFFFFF;}
+a.Menu:hover {color: orange;}
+hr.MenuBar {height: 2px;
+	color: Orange;}
+
+
+/* body styles */
+body {background-color: #7C8C9B;}
+p {text-align: justify;}
+.bodycopy {font-family: arial, helvetica, sans-serif;
+		font-size: 12px;
+		vertical-align: top;
+		color: #000000;}
+.BodyHead {font-family: arial, helvetica, sans-serif;
+		font-size: 16px;
+		font-weight: bold;
+		color: #FF3333}
+.footer {font-family: arial, helvetica, sans-serif;
+		font-size: 11px;
+		vertical-align: middle;
+		color: #000000;}
+li {text-align: justify;}
+.status {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	color: red;
+}
+hr {height: 2px;
+	color: #003366;}
+a.body {font-family: arial, helvetica, sans-serif;
+		font-size: 12px;
+		vertical-align: top;
+		color: #003366;}
+a.body:hover {color: orange;}
+		
+/* forms */
+Button {
+	FONT-FAMILY: Arial,Helvetica,sans-serif;
+	color: #FFFFFF;
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: normal;
+	BACKGROUND-COLOR: #003366;
+	BORDER-BOTTOM: 4px solid #FF972F;
+	BORDER-LEFT:  #FF972F 4px solid;
+	BORDER-RIGHT:  #FF972F 4px solid;
+	BORDER-TOP:  #FF972F 4px solid;
+}
+INPUT {
+	FONT-FAMILY: Arial,Helvetica,sans-serif;
+	FONT-SIZE: 11px;
+	FONT-WEIGHT: normal;
+	BACKGROUND-COLOR: #D9ECFF;
+	BORDER-BOTTOM: 2px solid #FFD7AE;
+	BORDER-LEFT: 2px solid #FF972F;
+	BORDER-RIGHT: 2px solid #FFD7AE;
+	BORDER-TOP: 2px solid #FF972F;
+}
+Select {FONT-FAMILY:Arial,Helvetica,sans-serif;
+	FONT-SIZE:11px;
+	FONT-WEIGHT:normal;
+	BACKGROUND-COLOR: #D9ECFF;
+	BORDER-BOTTOM: 2px solid #FFD7AE;
+	BORDER-LEFT: 2px solid #FF972F;
+	BORDER-RIGHT: 2px solid #FFD7AE;
+	BORDER-TOP: 2px solid #FF972F;}
+Textarea {FONT-FAMILY:Arial,Helvetica,sans-serif;
+	FONT-SIZE:11px;
+	FONT-WEIGHT:normal;
+	BACKGROUND-COLOR: #D9ECFF;
+	BORDER-BOTTOM: 2px solid #FFD7AE;
+	BORDER-LEFT: 2px solid #FF972F;
+	BORDER-RIGHT: 2px solid #FFD7AE;
+	BORDER-TOP: 2px solid #FF972F;}
